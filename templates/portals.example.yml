@@ -1642,6 +1642,205 @@ tracked_companies:
     notes: "Istanbul. E-commerce marketplace (Doğuş Group)."
     enabled: false
 
+  # ============================================================
+  # -- APAC Insurance, Actuarial & Reinsurance
+  #    (Singapore / Hong Kong / Seoul / Bermuda)
+  # ============================================================
+  # Specialised portals and direct-company entries for candidates targeting
+  # actuarial, risk-consulting, IFRS 17 / K-ICS, and insurance-AI roles.
+  # Set enabled: true on the companies relevant to your search.
+  # All entries verified active as of 2026-06.
+
+  # -- Korea: Actuarial hub --
+
+  - name: 한국보험계리사회 (Korea Actuarial Society)
+    careers_url: https://www.actuary.or.kr/board/offerList.do
+    scan_method: websearch
+    scan_query: 'site:actuary.or.kr 계리 경력 2026'
+    notes: "KR. Korea's primary actuarial job board. New listings posted weekly."
+    enabled: false
+
+  - name: EY한영 (Korea)
+    careers_url: https://careers.ey.com/ey/search/?q=actuarial&locationsearch=Korea
+    scan_method: websearch
+    scan_query: '"EY한영" OR "EY Korea" (계리 OR actuarial OR IFRS17 OR K-ICS) 경력 컨설턴트'
+    notes: "KR. Actuarial consulting team — ongoing recruitment. IFRS17/K-ICS specialist."
+    enabled: false
+
+  - name: 딜로이트 안진 (Korea)
+    careers_url: https://www2.deloitte.com/kr/ko/pages/careers/articles/careers.html
+    scan_method: websearch
+    scan_query: '"딜로이트 안진" (보험 OR 계리 OR IFRS17 OR K-ICS) 컨설팅 경력'
+    notes: "KR. Insurance IFRS17·K-ICS·actuarial/financial integration consulting."
+    enabled: false
+
+  # -- Singapore: Actuarial & Insurance --
+
+  - name: MyCareersFuture SG — Actuarial
+    careers_url: https://www.mycareersfuture.gov.sg/search?search=actuarial&sortBy=new_posting_date&page=0
+    scan_method: websearch
+    scan_query: 'site:mycareersfuture.gov.sg actuarial OR "risk consulting" OR IFRS17 Singapore'
+    notes: "SG. Singapore government job portal — all licensed employers must post here."
+    enabled: false
+
+  - name: EY Singapore — Actuarial
+    careers_url: https://careers.ey.com/ey/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"EY Singapore" actuarial (life OR "non-life" OR IFRS17 OR pricing) (manager OR "senior manager")'
+    notes: "SG. EY runs 7+ concurrent actuarial roles. Life, GI, IFRS17, pricing."
+    enabled: false
+
+  - name: KPMG Singapore — Actuarial
+    careers_url: https://careers.kpmg.com.sg/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"KPMG Singapore" actuarial (life OR "non-life" OR IFRS17) (manager OR "senior associate")'
+    notes: "SG. FS Consulting Life Actuarial — Senior Associate to Manager."
+    enabled: false
+
+  - name: Deloitte Singapore — Actuarial & AI
+    careers_url: https://jobs.sea.deloitte.com/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"Deloitte Singapore" (actuarial OR "AI" OR "FSI") (manager OR "senior manager") insurance'
+    notes: "SG. Integrated Risk Management + T&T AI & Data (FSI) roles."
+    enabled: false
+
+  - name: Munich Re Singapore — Actuarial
+    careers_url: https://careers.munichre.com/en/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"Munich Re" Singapore actuarial (pricing OR reserving OR "L&H" OR "structured solutions")'
+    notes: "SG. L&H pricing, structured solutions, experience studies."
+    enabled: false
+
+  - name: Swiss Re Singapore — Actuarial
+    careers_url: https://www.swissre.com/careers/jobSearch.html?filter=actuarial&location=Asia
+    scan_method: websearch
+    scan_query: '"Swiss Re" Singapore actuarial (pricing OR reserving OR "L&H" OR "P&C") (manager OR director)'
+    notes: "SG. Global L&H and P&C actuarial roles, APAC hub."
+    enabled: false
+
+  - name: FWD Insurance Singapore — Actuarial
+    careers_url: https://careers.fwd.com/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"FWD Insurance" Singapore actuarial (IFRS17 OR EV OR ALM OR pricing) (manager OR "senior manager")'
+    notes: "SG. Life actuarial — IFRS17 EV reporting, ALM, pricing."
+    enabled: false
+
+  - name: AIA Singapore — Actuarial
+    careers_url: https://careers.aia.com/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"AIA" Singapore actuarial (pricing OR reserving OR IFRS17 OR "risk management") (manager OR director)'
+    notes: "SG. Pan-Asian life insurer. Actuarial and risk management roles."
+    enabled: false
+
+  - name: Milliman Singapore — Actuarial
+    careers_url: https://www.milliman.com/en/careers
+    scan_method: websearch
+    scan_query: '"Milliman" Singapore actuarial (IFRS17 OR "life insurance" OR consulting) (consultant OR manager)'
+    notes: "SG. Independent actuarial consulting firm. IFRS17 life insurance focus."
+    enabled: false
+
+  - name: Oliver Wyman Singapore — Actuarial & AI
+    careers_url: https://careers.oliverwyman.com/search/?q=actuarial+AI&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"Oliver Wyman" Singapore (actuarial OR "AI Enablement" OR "AI Adoption") (manager OR director OR lead)'
+    notes: "SG. AI Adoption Lead APAC + actuarial insurance consulting."
+    enabled: false
+
+  - name: Hannover Re Singapore — Actuarial
+    careers_url: https://www.hannover-re.com/careers
+    scan_method: websearch
+    scan_query: '"Hannover Re" Singapore actuarial OR "L&H" OR pricing (manager OR consultant OR director)'
+    notes: "SG. Global L&H reinsurance actuarial hub for APAC."
+    enabled: false
+
+  - name: SCOR Singapore — Actuarial
+    careers_url: https://careers.scor.com/search/?q=actuarial&locationsearch=Singapore
+    scan_method: websearch
+    scan_query: '"SCOR" Singapore actuarial OR "L&H" OR pricing (manager OR consultant OR director)'
+    notes: "SG. French reinsurer. L&H actuarial and pricing."
+    enabled: false
+
+  # -- Hong Kong: Actuarial & Insurance --
+
+  - name: Deloitte Hong Kong — Actuarial
+    careers_url: https://jobs.sea.deloitte.com/search/?q=actuarial&locationsearch=Hong+Kong
+    scan_method: websearch
+    scan_query: '"Deloitte" "Hong Kong" actuarial (GI OR life OR IFRS17 OR "Solvency II") (manager OR director)'
+    notes: "HK. GI and life actuarial consulting. IFRS17 + Solvency II."
+    enabled: false
+
+  - name: KPMG Hong Kong — Actuarial
+    careers_url: https://careers.kpmg.com.hk/search/?q=actuarial
+    scan_method: websearch
+    scan_query: '"KPMG" "Hong Kong" actuarial (life OR "non-life" OR IFRS17) (manager OR "senior manager")'
+    notes: "HK. FS actuarial consulting — life and non-life."
+    enabled: false
+
+  - name: Robert Walters Hong Kong — Actuarial
+    careers_url: https://www.robertwalters.com.hk
+    scan_method: websearch
+    scan_query: '"Robert Walters" "Hong Kong" actuarial (IFRS17 OR EV OR ALM OR TEV) (manager OR director OR "senior manager")'
+    notes: "HK. Specialist recruiter — IFRS17 TEV/EV actuarial roles."
+    enabled: false
+
+  - name: Argyll Scott Hong Kong — Insurance AI
+    careers_url: https://www.argyllscott.com/jobs
+    scan_method: websearch
+    scan_query: 'site:argyllscott.com insurance ("AI" OR "transformation" OR actuarial) ("Hong Kong" OR APAC)'
+    notes: "HK. Insurance change management and AI transformation roles."
+    enabled: false
+
+  # -- Bermuda: Reinsurance Actuarial --
+
+  - name: RenaissanceRe (Bermuda)
+    careers_url: https://www.renre.com/careers
+    scan_method: websearch
+    scan_query: '"RenaissanceRe" OR "RenRe" actuarial OR "risk management" OR pricing (Bermuda OR Singapore) (manager OR director OR analyst)'
+    notes: "Bermuda. Leading cat reinsurer. Actuarial, risk, and pricing roles."
+    enabled: false
+
+  - name: PartnerRe (Bermuda)
+    careers_url: https://www.partnerre.com/careers
+    scan_method: websearch
+    scan_query: '"PartnerRe" actuarial OR "L&H" OR pricing (Bermuda OR Singapore OR APAC) (manager OR consultant OR director)'
+    notes: "Bermuda/Zurich. Diversified reinsurer. Life & Health actuarial."
+    enabled: false
+
+  - name: Arch Capital (Bermuda)
+    careers_url: https://archcapgroup.wd1.myworkdayjobs.com/Arch_Careers
+    scan_method: websearch
+    scan_query: '"Arch Capital" OR "Arch Re" actuarial OR pricing OR "risk management" (Bermuda OR Singapore) (manager OR director)'
+    notes: "Bermuda. Specialty insurance & reinsurance. Actuarial and risk roles."
+    enabled: false
+
+  - name: Everest Re (Bermuda)
+    careers_url: https://www.everestglobal.com/careers
+    scan_method: websearch
+    scan_query: '"Everest Re" OR "Everest Group" actuarial OR pricing OR "risk management" (Bermuda OR Singapore OR APAC) (manager OR director)'
+    notes: "Bermuda. Global reinsurance and insurance. Actuarial pricing and reserving."
+    enabled: false
+
+  - name: Axis Capital (Bermuda)
+    careers_url: https://www.axiscapital.com/careers
+    scan_method: websearch
+    scan_query: '"Axis Capital" OR "AXIS Re" actuarial OR pricing OR "risk management" (Bermuda OR Singapore OR "Hong Kong") (manager OR director)'
+    notes: "Bermuda. Specialty insurance & reinsurance. APAC presence."
+    enabled: false
+
+  - name: Aspen Insurance (Bermuda)
+    careers_url: https://www.aspen.co/careers
+    scan_method: websearch
+    scan_query: '"Aspen Insurance" OR "Aspen Re" actuarial OR pricing OR "risk management" (Bermuda OR Singapore OR APAC) (manager OR director)'
+    notes: "Bermuda. Specialty (re)insurance. Actuarial and risk."
+    enabled: false
+
+  - name: Gen Re (Bermuda/APAC)
+    careers_url: https://www.genre.com/careers
+    scan_method: websearch
+    scan_query: '"Gen Re" OR "General Re" actuarial OR "L&H" OR pricing (Bermuda OR Singapore OR "Hong Kong" OR APAC) (manager OR consultant)'
+    notes: "Berkshire Hathaway subsidiary. L&H reinsurance actuarial."
+    enabled: false
+
 # ── Job Boards ────────────────────────────────────────────────────────
 # Multi-employer aggregators. Unlike tracked_companies (one entry = one employer),
 # job boards return offers from many companies in a single API call.
